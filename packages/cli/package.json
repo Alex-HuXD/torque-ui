@@ -1,0 +1,24 @@
+{
+    "name": "@torque-ui/cli",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "bin": {
+        "torque-ui": "./dist/index.js"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@repo/eslint-config": "workspace:*",
+        "@repo/typescript-config": "workspace:*",
+        "@types/node": "^22.14.0",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "commander": "^13.1.0"
+    }
+}
