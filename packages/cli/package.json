@@ -4,7 +4,7 @@
     "description": "",
     "main": "dist/index.js",
     "bin": {
-        "torque-ui": "./dist/index.js"
+        "tui": "./dist/index.js"
     },
     "scripts": {
         "build": "tsc"
@@ -15,10 +15,14 @@
     "devDependencies": {
         "@repo/eslint-config": "workspace:*",
         "@repo/typescript-config": "workspace:*",
+        "@types/fs-extra": "^11.0.4",
         "@types/node": "^22.14.0",
         "typescript": "^5.8.3"
     },
     "dependencies": {
-        "commander": "^13.1.0"
+        "commander": "^13.1.0",
+        "execa": "^9.5.2",
+        "fs-extra": "^11.3.0",
+        "inquirer": "^12.5.2"
     }
 }
